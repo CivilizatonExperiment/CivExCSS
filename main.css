@@ -108,7 +108,7 @@ overflow: visible;
 
 #header
 {
-	background:url(%%civex2%%) top center;
+	background:url("img/civex2.png") top center;
 	border-bottom:transparent;
 }
 
@@ -1896,7 +1896,7 @@ body:not(.loggedin).single-page.comments-page .commentarea>.sitetable
 	width:35px;
 	height:35px;
 	position:absolute;
-	background:url(%%template%%) no-repeat 11px 12px transparent;
+	background:url("img/template.png") no-repeat 11px 12px transparent;
 	line-height:23px;
 	text-indent:-999em;
 	opacity:.6;
@@ -1959,7 +1959,7 @@ body:not(.loggedin).single-page.comments-page .commentarea>.sitetable
 {
 	width:35px;
 	height:35px;
-	background:url(%%template%%) no-repeat 11px 12px transparent;
+	background:url("img/template.png") no-repeat 11px 12px transparent;
 	text-indent:-999em;
 	cursor:pointer;
 	position:relative;
@@ -3917,7 +3917,7 @@ body:not(.loggedin).single-page.comments-page .commentarea>.sitetable
 	position:fixed!important;
 	width:765px!important;
 	height:621px!important;
-	background-image:url(%%skyutopia%%)!important;
+	background-image:url("img/skyutopia.png")!important;
 	transform:rotate(0deg)!important;
 }
 
@@ -4442,10 +4442,10 @@ input[type=checkbox]
        margin: 35px;
 }
 
-.md [href="#logo"]:before { content: url(%%civexlogo%%); }
-.md [href="#facepalm"]:before { content: url(%%rsz-facepalm%%); }
-.md [href="#pjsalt"]:before { content: url(%%pjsalt%%); }
-.md [href="#wat"]:before { content: url(%%wat%%); }
+.md [href="#logo"]:before { content: url("img/civexlogo.png"); }
+.md [href="#facepalm"]:before { content: url("img/rsz-facepalm.png); }
+.md [href="#pjsalt"]:before { content: url("img/pjsalt.png"); }
+.md [href="#wat"]:before { content: url("img/wat.png"); }
 
 .midcol {
     position: auto;
