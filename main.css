@@ -368,7 +368,7 @@ overflow: visible;
 	color:#BBB;
 }
 
-.titlebox .md h3 a
+.titlebox .md h3 a[href*="donate"]
 {
 	float:right;
 	margin-right:3px;
@@ -376,11 +376,37 @@ overflow: visible;
 	font-weight:900;
 	color:white;
 	text-decoration: none;
+    display: block;
+    background: #5cb85c;
+    border: 1px solid #4cae4c;
+    padding: 10px;
+    padding-bottom: 15px;
+    height: 100%;
+    border-radius: 4px;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0.5em 0;
+    color: #fff;
+    width: 280px;
+    font: normal x-small verdana,arial,helvetica,sans-serif;
+    box-shadow: 0px -5px 0px #4cae4c inset;
+    transition: background-color 0.2s, box-shadow 0.2s, color 0.2s, border-color 0.2s;
 }
 
-.titlebox .md h3 a:hover
-{
+.titlebox .md h3 a[href*="donate"]:hover{
 	color:#DDD;
+    background-color: #449d44;
+    border-color: #398439;
+    box-shadow: 0px -5px 0px #398439 inset;
+    color: #b2b2b2;
+}
+
+.titlebox .md h3 a[href*="donate"]:active {
+  background-color: #2f6d2f;
+  border-color: #275c27;
+  box-shadow: none;
+  padding-bottom: 10px;
+  margin-top: 5px;
 }
 
 .side .md table
@@ -4903,39 +4929,6 @@ a[href="/intensifies"]:before {
 
 a[href="/intensifies"]:after {
   content: "]";
-}
-
-.side h3 a {
-  display: block;
-  background: #5cb85c;
-  border: 1px solid #4cae4c;
-  padding: 10px;
-  padding-bottom: 15px;
-  height: 100%;
-  border-radius: 4px;
-  font-size: 1.2em;
-  text-align: center;
-  margin: 0.5em 0;
-  color: #fff;
-  width: 280px;
-  font: normal x-small verdana,arial,helvetica,sans-serif;
-  box-shadow: 0px -5px 0px #4cae4c inset;
-  transition: background-color 0.2s, box-shadow 0.2s, color 0.2s, border-color 0.2s;
-}
-
-.side h3 a:hover {
-  background-color: #449d44;
-  border-color: #398439;
-  box-shadow: 0px -5px 0px #398439 inset;
-  color: #b2b2b2;
-}
-
-.side h3 a:active {
-  background-color: #2f6d2f;
-  border-color: #275c27;
-  box-shadow: none;
-  padding-bottom: 10px;
-  margin-top: 5px;
 }
 
 .res .srSep, .res #RESShortcuts {
